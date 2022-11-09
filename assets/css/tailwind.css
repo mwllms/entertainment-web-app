@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-blue-dark font-light text-white antialiased;
+  }
+}
+#main-menu .router-link-active {
+  @apply text-white;
+}
